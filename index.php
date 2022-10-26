@@ -58,11 +58,11 @@
 
         <tr>
             <td id = "A";>
-            <lable>D.O.B</lable>
+            <lable>D.O.B*</lable>
             </td>
 
             <td> 
-            <input type ="text" name = "Dateofbirth" > 
+            <input type ="text" name = "Dateofbirth" required > 
             </td> 
     </tr>
 
@@ -80,12 +80,12 @@
   
          <td id = "A";>
         
-       GENDER
+       GENDER*
         <br>
 </td>
 <td>
-        <input type ="radio" name = "radio" value = "male" >Male  
-        <input type ="radio" name = "radio" value = "female" >female
+        <input type ="radio" name = "radio" value = "male" required>Male  
+        <input type ="radio" name = "radio" value = "female" required>female
 
 
 </td>
